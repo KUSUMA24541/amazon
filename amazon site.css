@@ -1,0 +1,468 @@
+.nav {
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+}
+
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 33, 48);
+
+}
+
+#logoImg {
+    width: 100px;
+}
+.subnav{
+    display: flex;
+    flex-direction: row;
+}
+#prime{
+    background-color: rgb(17, 33, 48);
+}
+
+#navBar {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 33, 48);
+}
+
+#logoImg {
+    width: 120px;
+}
+
+#subnav{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+#div{
+    color: white;
+        font-family:sans-serif;
+        font-size:10px 10px;
+
+} 
+        
+    
+
+
+#back {
+    width: 100%;
+    position: relative;
+}
+
+#aboutimage{
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+#images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.my-image{
+        width: 130px;
+        height: 130px;
+}
+    
+    #four{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+
+#see {
+    color: blue;
+}
+
+#see:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 300px;
+
+    background-color: WHITE;
+}
+#flag{
+    height: 20px;
+    width: 20px;
+}
+#eng{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#All{
+    background: rgba(128, 128, 128, 0.756);
+    color: white;
+    padding: 5px 8px;
+    font-size: 12px;
+    border-radius: 0px;
+
+}
+#dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#in{
+    width: 300px;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+
+}
+#submit{
+    font-size: 13px;
+    padding: 5px 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+}
+#cartimg{
+    height: 30px;
+    width: 30px;
+}
+#cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#loc{
+    height: 30px;
+    width: 30px;
+}
+#address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#cardHead{
+    font-size: 15px;
+    font-family: sans-serif;
+
+
+}
+#bar{
+    height: 20px;
+    width: 20px;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.my-image {
+    height: 100px;
+    width: 120px;
+}
+
+.see {
+    color: blue;
+}
+
+.see:hover {
+    color: red;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+
+    background: white;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    gap: 10px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.bgd {
+    height: 20px;
+    width: 70%;
+
+    position: relative;
+}
+
+
+.carousel-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    border-width: 20px;
+}
+
+.bikes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.txt {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.height {
+    height: 200px;
+    width: 250px;
+}
+
+.brands {
+
+    background: white;
+    padding: 20px;
+    gap: 20px;
+}
+
+.fashion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.ad {
+
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.head {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.title {
+    border: 1px black solid;
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.signin {
+    width: 230px;
+    padding: 5px;
+    background: rgba(218, 218, 37, 0.966);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create {
+    display: flex;
+    flex-direction: row;
+}
+
+.start {
+    color: green;
+    cursor: pointer;
+}
+
+.up {
+
+    font-size: 18px;
+
+    display: flex;
+    padding: 20px;
+    border: 2px black solid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(39, 63, 85, 0.993);
+    color: white;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(23, 45, 65);
+    color: white;
+    padding: 100px;
+    gap: 60px;
+}
+.final{
+    border: 2px black solid;
+    width: 105%;
+
+}
+
+.helpcenter {
+    font-size: 20px;
+    border: 2px black solid;
+}
+
+.sub {
+    gap: 20px;
+}
+.bar{
+    height: 20px;
+    width: 20px;
+}
+.user{
+    height: 30px;
+    width: 30px;
+}
+.hd{
+    font-size: 18px;
+}
+.hed{
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+    background-color: rgb(23, 45, 65);
+    color: white;
+}
+.primeimg{
+    height: 200%;
+    width: 200%;
+    border: 2px black solid;
+    padding: 10px;
+}
+.h{
+
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.bgcolor {
+    position: absolute;
+    top: 400px;
+    background-color: rgba(206, 202, 202, 0.616);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.aboutimage{
+    font-size: 12px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: white;
+    width: 100%;
+    gap: 15px;
+    padding: 20px 40px;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.last{
+    width: 105%;
+}
